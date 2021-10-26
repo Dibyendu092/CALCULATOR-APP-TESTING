@@ -1,0 +1,253 @@
+id: fDwqKU5v1kaI3WufKtmHEA
+projectId: FbHV7vHd7U2nYumKRJmWYQ
+projectName: My first Project
+created: 2021-10-26T19:03:56.4940582Z
+protocol: 1
+tests:
+- id: xAlhyD_gj02TtkGBf-jmfw
+  name: CALCULATOR TEST
+  description: ''
+  platform: Android
+  type: Mobile
+  driverType: Appium_Android
+  version: 0.1
+  creationDate: 2021-10-26T18:01:23.0000000
+  modificationDate: 2021-10-26T18:28:04.0000000
+  settings:
+    automationAssistant: true
+    deviceId: 0b5e963a
+    appId: o1DWy0VOr02OUWhgTAKs1w
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: o1DWy0VOr02OUWhgTAKs1w
+    androidActivity: com.example.calculator.Splashscreen
+    androidPackage: com.example.calculator
+    name: CALCULATOR
+    platform: Android
+  steps:
+  - id: 8_Q6UptJ8EeS3QBannhOhQ
+    comments: Clear application data and restart (Auto-generated)
+    enabled: false
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GBaqiwzuvkiNrvCT7U7ZAQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: AcebYOG4Xkmb0BS5Pu6HIA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zUqK6qGWKEOht8Tf7WihBQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: XQfhqS332kS1G5zZEoxR9A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2OlM-_zcYkyRW91N16WaVg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 9fItBTAVeEK4lBK-DqIErA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: y1YvXoH1y0-H-N8sU6rvFg
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: FZ8nnXL6_kKKu1oWoSZvmQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0KwDmnOIXUuK1Pn87tFuwA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: mghoN-bSokCZKeZbs3pH6g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: AcebYOG4Xkmb0BS5Pu6HIA
+  name: 8
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: ID
+    value: com.example.calculator:id/bt8
+    priority: 0
+  - name: XPATH
+    value: //android.widget.Button[@text = '8']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button[6]
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridLayout[1]/android.widget.Button[6]
+    priority: 3
+- id: XQfhqS332kS1G5zZEoxR9A
+  name: +
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: ID
+    value: com.example.calculator:id/btplus
+    priority: 0
+  - name: XPATH
+    value: //android.widget.Button[@text = '+']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button[12]
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridLayout[1]/android.widget.Button[12]
+    priority: 3
+- id: 9fItBTAVeEK4lBK-DqIErA
+  name: 6
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: ID
+    value: com.example.calculator:id/bt6
+    priority: 0
+  - name: XPATH
+    value: //android.widget.Button[@text = '6']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button[9]
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridLayout[1]/android.widget.Button[9]
+    priority: 3
+- id: FZ8nnXL6_kKKu1oWoSZvmQ
+  name: =
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: ID
+    value: com.example.calculator:id/btequal
+    priority: 0
+  - name: XPATH
+    value: //android.widget.Button[@text = '=']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button[19]
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridLayout[1]/android.widget.Button[19]
+    priority: 3
+- id: mghoN-bSokCZKeZbs3pH6g
+  name: 14
+  description: CONTAINS 14
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: ID
+    value: com.example.calculator:id/t2
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[@text = '14']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.TextView[2]
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[2]
+    priority: 3
+projectParameters: []
+addons: []
